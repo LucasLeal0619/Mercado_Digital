@@ -15,7 +15,7 @@
     <script src="./js/script.js"></script>
 </head>
 
-<body>
+<body id="top">
 
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -27,9 +27,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Sobre Nós</a>
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link active" aria-current="page" href="#top">Inicio</a>
+                    <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -86,7 +86,7 @@
         </div>
     </main>
     <!--seção de conteudo -->
-    <section class="section-boot">
+    <section class="section-boot" id="sobre-nos">
         <div class="conteudo-boot">
             <h2 class="text-center">Bem vindo ao Mercado Digital</h2>
             <p class="text-center">Encontre tudo que precisa com entrega rápida e segurança</p>
@@ -105,10 +105,11 @@
                 <li>Compra 100% online</li>
                 <li>Pagamento seguro</li>
             </ul>
+        <p class="text-center"><a href="#top" class="link-retorno">Voltar ao menu</a></p>
         </div>
     </section>
 
-    <section class="form-boot">
+    <section class="form-boot" id="contato">
         <h1 class="subtitulo-boot">Formulário</h1>
         <div class="container-boot">
             <form action="#">
@@ -121,7 +122,9 @@
 
                 <button type="button" class="btn btn-warning" style="background-color: rgb(235, 95, 49);"
                     onclick="enviar()">Enviar</button>
-            </form>
+            <p class="text-center"><a href="#top" class="link-retorno">Voltar ao menu</a></p>
+                </form>
+        
         </div>
     </section>
     <footer class="rodape-boot">
