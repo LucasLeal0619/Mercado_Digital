@@ -12,6 +12,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -29,6 +30,31 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     <a class="nav-link" href="#">Sobre Nós</a>
                     <a class="nav-link" href="#">Contato</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sessões dos Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Higiene pessoal</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hortifruti</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="#">Congelados</a></li>
+                            <li>
+                                <li><a class="dropdown-item" href="#">Padaria</a></li>
+                            <li>
+                                <li><a class="dropdown-item" href="#">Açougue</a></li>
+                            <li>
+                                <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                            <li>
+                                <li><a class="dropdown-item" href="#">Pet shop</a></li>
+                            <li>
+                                <li><a class="dropdown-item" href="#">Utilidades domésticas</a></li>
+                            <li>
+                               
+                        </ul>
+                    </li>
                 </div>
             </div>
         </div>
@@ -82,10 +108,22 @@
         </div>
     </section>
 
-     <div>
-            <button type="button" class="btn btn-warning" style="background-color: rgb(235, 95, 49);">Enviar</button>
-        </div>
+<section class="form-boot">
+    <h1 class="subtitulo-boot">Formulario de Contato</h1>
+    <div class="container-boot">
+        <form action="#">
+        <label for="">Digite seu nome</label>
+        <input type="text" required> 
+        <label for="">Digite seu email</label>
+        <input type="email" required> 
+        <label for="">Digite sua senha</label>
+        <input type="password" required> 
 
+        <button type="button" class="btn btn-warning" style="background-color: rgb(235, 95, 49);" onclick="enviar()">Enviar</button>
+       </form>
+       
+    </div>
+</section>
 </body>
 
 </html>
