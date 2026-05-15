@@ -1,10 +1,11 @@
-
+*{
+    margin: 0; 
+    padding: 0;
+}
 
 .navbar-nav{
-    display: flex; 
-    justify-content: center; 
+    margin-left: 550px;
     width: 100%; 
-    margin: auto 0;
     padding: 20px 10px 10px 10px;
 }
 
@@ -17,6 +18,46 @@
 .carrossel-boot{
     width: 1200px;
     margin: auto;
+}
+
+.lista-boot{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.section-boot{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza título e texto um embaixo do outro */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    height: 60vh; /* Define a altura como 60% da altura da tela do usuário */
+    background-color: #2d3436; /* Fundo escuro estilo terminal de código */
+    color: #ffffff; /* Texto totalmente branco */
+    text-align: center; /* Centraliza o alinhamento do texto */
+    padding: 20px; /* Espaço de segurança para o texto não encostar nas bordas */
+}
+
+.text-center{
+    margin-top: 50px;
+}
+
+.ul-boot{
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.titulo-beneficios{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.beneficios-boot{
+    margin-top: 5px;
 }
 
 main{
